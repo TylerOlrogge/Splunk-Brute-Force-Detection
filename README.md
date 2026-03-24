@@ -33,7 +33,15 @@ This ruls was designed to trigger if there are at least 3 failed logins, followe
 - Verified that the alert was triggered correctly
 
 #What I Learned
+- How to ingest Windows Event logs into Splunk Enterprise
+- How to identify failed and successful login attempts by using Event ID 4625 and 4624
+- How to write basic Splunk rules and how to test them
+- How scheduled alerts with within SIEM environments
 
 #Problems I ran into
+- Splunk returned 404 errors when I tried assigning logs for collection (Resolved by downgrading to Splunk Enterprise version 9.4.9)
+- Windows event logs not being ingested at first (Resolved by downloading the Splunk Add-on for Windows)
+- Splunk would not allow me to access it via the web console (Resolved by utilizing net start/stop splunkd to restart the service) 
 
 #Summary
+This lab demonstrates how SIEM tools can be utilized to detect suspicious login attempts by analyzing Windows Event Logs. By building detection rule alerts within Splunk Enterprise, I was successfully able to simulate and identify potential brute-force attacks within a controlled environment. 
