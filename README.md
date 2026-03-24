@@ -13,7 +13,7 @@ Set up Splunk so that it will alert when it detects a successful brute-force att
 1. Download Splunk Enterprise on your machine and log in via the web interface. As of the time of writing this, I recommend version 9.4.9 as it seems to work better with local machine log collection. We will be collecting logs from the same machine that Splunk Enterprise was installed on.
 2. At the top right, click on the drop down labeled "Settings", then click on or search for "Data Inputs"
 3. The first option you will see is called "Local event log collection." On the right side of that, click on "Edit"
-4. In the "Logs" screen, select "Application", "Security", and "System" logs by clicking on them, and then click oni the arrow pointing right. They should then appear under the "Selected log(s)" section.
+4. In the "Logs" section, select "Application", "Security", and "System" logs by clicking on them, and then click on the arrow pointing right. They should then appear under the "Selected log(s)" section.
 5. Click "Save"
 6. Click on the "Splunk Enterprise" icon at the top left to return to the home page
 7. On the left side, click on "Search & Reporting"
