@@ -1,7 +1,7 @@
 # Splunk-Brute-Force-Detection
 Setting up Splunk Enterprise to detect successful brute-force login attempts on a Windows device
 
-#Objective
+#Objective 
 Set up Splunk so that it will alert when it detects a successful brute-force attack by utilizing Window logs. 
 
 #Environment
