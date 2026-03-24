@@ -10,6 +10,7 @@ I created an alert within Splunk that triggers whenever there are at least 3 fai
 - Splunk Enterprise
 
 #Key Concept:
+-Monitor Windows Event logs: EventCode 4625 and EventCode 4624
 
 #Detection Rule: 
 
