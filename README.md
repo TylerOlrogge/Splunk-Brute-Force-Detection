@@ -1,6 +1,9 @@
-#Splunk-Brute-Force-Detection Lab
+Splunk-Brute-Force-Detection Lab
 
 #Overview: 
+Setting up Splunk Enterprise to detect failed logon attempts. 
+
+I created an alert within Splunk that triggers whenever there are at least 3 failed logon attempts (potential failed brute-force attack) as well as an alert that triggers whenever there are at least 3 failed logon attempts followed by a successful logon (potential successful brute-force attack).
 
 #Setup: 
 
