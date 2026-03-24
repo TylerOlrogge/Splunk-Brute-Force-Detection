@@ -1,3 +1,3 @@
-🔒 Splunk-Brute-Force-Detection on Windows
+#Splunk-Brute-Force-Detection on Windows
 
 
