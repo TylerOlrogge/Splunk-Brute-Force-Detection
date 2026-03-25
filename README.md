@@ -20,7 +20,7 @@ EventCode=4625 OR EventCode=4624
      by Account_Name
 | where FailedLogonAttempts >3 AND SuccessfulLogonAttempts >0
 
-This ruls was designed to trigger if there are at least 3 failed logins, followed by a successful login, which could indicate a potential successful brute-force attack. SuccessfulLogonAttempts >0 can be removed if we are looking to monitor for failed brute-force attacks. 
+This rule was designed to trigger if there are at least 3 failed logins, followed by a successful login, which could indicate a potential successful brute-force attack. SuccessfulLogonAttempts >0 can be removed if we are looking to monitor for failed brute-force attacks. 
 
 ## Alert Setup:
 - Scans logs every 5 minutes 
@@ -36,7 +36,7 @@ This ruls was designed to trigger if there are at least 3 failed logins, followe
 - How to ingest Windows Event logs into Splunk Enterprise
 - How to identify failed and successful login attempts by using Event ID 4625 and 4624
 - How to write basic Splunk rules and how to test them
-- How scheduled alerts with within SIEM environments
+- How scheduled alerts work within SIEM environments
 
 ## Problems I ran into
 - Splunk returned 404 errors when I tried assigning logs for collection (Resolved by downgrading to Splunk Enterprise version 9.4.9)
